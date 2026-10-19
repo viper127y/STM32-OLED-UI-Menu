@@ -1,0 +1,23 @@
+# ===== Keil MDK 编译输出 =====
+# Keil 输出目录（本工程将中间文件放在 MDK-ARM/NsUiExample/）
+**/MDK-ARM/NsUiExample/
+**/Objects/
+**/Listings/
+
+# 编译中间文件（双保险）
+*.o
+*.d
+*.crf
+*.axf
+*.lnp
+*.iex
+*.dep
+*.lst
+*.map
+*.build_log.htm
+
+# Keil 个人界面布局文件（每次打开都会变，无提交价值）
+*.uvguix.*
+
+# VSCode 插件缓存
+.vscode/
